@@ -81,8 +81,11 @@ function M.get_git_blame()
     -- Add new virtual text (blame message) at the right of the line
     extmark_id = vim.api.nvim_buf_set_extmark(bufnr, ns_id, line - 1, -1, {
         virt_text = {{blame_msg, 'Comment'}},  -- You can customize the highlight group here
-        virt_text_pos = 'eol',  -- Position it at the end of the line
+        virt_text_pos = 'inline',--'eol',  -- Position it at the end of the line
+        hl_mode = 'combine',
     })
+
+    vim.cmd('redraw')
 end
 
 function M.setup()
