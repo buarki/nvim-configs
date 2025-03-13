@@ -13,10 +13,10 @@ return {
     config = function()
         -- Setup the git-blame and git-history
         require("git-blame.git_blame").setup()
-        require("git-blame.git_history").setup()
+        --require("git-blame.git_history").setup()
 
         -- Optional: Key bindings
         vim.api.nvim_set_keymap("n", "<Leader>gb", ":lua require('git-blame.git_blame').get_git_blame()<CR>", { noremap = true, silent = true })
-        vim.api.nvim_set_keymap("n", "<Leader>gh", ":lua require('git-blame.git_history').show_git_log()<CR>", { noremap = true, silent = true })
+        --vim.api.nvim_set_keymap("n", "<Leader>gh", ":lua require('git-blame.git_history').show_git_log()<CR>", { noremap = true, silent = true })
     end
 }
