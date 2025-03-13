@@ -5,7 +5,7 @@
 ```sh
 brew install iterm2
 brew install neovim
-rew install ripgrep
+brew install ripgrep
 brew install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 go install github.com/go-delve/delve/cmd/dlv@latest
