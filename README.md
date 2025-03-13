@@ -43,6 +43,15 @@ mv Downloads/Meslo/*.ttf Library/Fonts
 - press a
 - it will show at the bottom the path to add the file
 
+### Rename a file
+- place cursor on it 
+- press r (simple r)
+
+### Move a chunk of code up and down 
+- select the chunk
+- to move up: shit k (capital K)
+- to move down: shift j (capital J)
+
 ### Delete a Line
 
 ### Deleting multiple lines
