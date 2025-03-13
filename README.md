@@ -30,7 +30,7 @@ mv Downloads/Meslo/*.ttf Library/Fonts
 - Click Profiles -> Open Profiles -> Select Default -> Edit Profile -> Text -> At Fonts dropdown menu select `MesloLGL Nerd Font`;
 
 ## Practical straightford quick and straight to the point Nvim 1:1
-
+˜
 (as long as you installed all these plugins you can follow bellow steps)
 
 ### Show/Hide Left side bar
@@ -49,7 +49,18 @@ mv Downloads/Meslo/*.ttf Library/Fonts
 
 ### Switching from left sidebar to code are
 
-### Open muliple code areas
+### Handling multiple tabs 
+- by using barbar plugin, all opened file will be placed into a tab 
+- to move to an specific tab : "Space" + tab number 
+- to close the current tab : "space "+ c 
+- to move left : "Space"+>
+- to move right; "Space"+<
+
+### Spliting the screen vertically
+- control + s (will split in to areas)
+- to move left: control + l 
+- to move right: control + h 
+- to close current vertical window: control + q 
 
 ### Debbugging
 
