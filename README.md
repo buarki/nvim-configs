@@ -47,6 +47,23 @@ mv Downloads/Meslo/*.ttf Library/Fonts
 - place cursor on it 
 - press r (simple r)
 
+### Delete a file
+- place curor on it 
+- press d 
+
+### Undo a change
+- go to normal mode
+- press u 
+
+### Comment and uncomment code 
+- normal mode
+- if single line: gcc 
+- if multiple lines 
+    - normal mode
+    - visual mode
+    - select the lines
+    - press gc 
+
 ### Move a chunk of code up and down 
 - select the chunk
 - to move up: shit k (capital K)
