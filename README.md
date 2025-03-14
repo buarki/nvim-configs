@@ -70,10 +70,21 @@ mv Downloads/Meslo/*.ttf Library/Fonts
 - to move down: shift j (capital J)
 
 ### Delete a Line
+- visual mode 
+- run dd 
+
+### Replace string occurrence
+- :
+- :%s/old_text/new_text/g
+
 
 ### Deleting multiple lines
+- visual mode 
+- select the line 
+- dd 
 
 ### Switching from left sidebar to code are
+- control + n 
 
 ### Handling multiple tabs 
 - by using barbar plugin, all opened file will be placed into a tab 
