@@ -11,12 +11,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 go install github.com/go-delve/delve/cmd/dlv@latest
 ```
 
-Configure tmux.conf:
-
-```sh
-
-```
-
 ## Needed fonts
 
 - I'm using Meslo, just download it from [here](https://www.nerdfonts.com/font-downloads);
@@ -106,7 +100,7 @@ mv Downloads/Meslo/*.ttf Library/Fonts
 - press `" "bp` to add a break point
 - to run, go to the main and run `" "de`
 
-## References
+## Sources Of References I Used
 
 - https://www.youtube.com/watch?v=U-omALWIBos
 - https://www.youtube.com/watch?v=-ONbfnVc_v8
